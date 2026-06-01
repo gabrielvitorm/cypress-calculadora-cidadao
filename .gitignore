@@ -140,3 +140,5 @@ vite.config.ts.timestamp-*
 
 /.docs/
 CLAUDE.md
+cypress/e2e/2-marcelo-nobrega/
+cypress/e2e/3-pedro-queiroga/
