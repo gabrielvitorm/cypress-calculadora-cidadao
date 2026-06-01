@@ -137,7 +137,3 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
-
-# Cypress specs ignorados
-cypress/e2e/2-marcelo-nobrega/
-cypress/e2e/3-pedro-queiroga/
