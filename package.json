@@ -1,0 +1,18 @@
+{
+  "name": "cypressinit",
+  "version": "1.0.0",
+  "description": "Automacao de testes da Calculadora do Cidadao com Cypress.",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "cypress run",
+    "test:gabriel": "cypress run --spec \"cypress/e2e/1-gabriel-chaves/gabriel_chaves_ipca.cy.js\"",
+    "test:marcelo": "cypress run --spec \"cypress/e2e/2-marcelo-nobrega/marcelo_nobrega_poupanca.cy.js\"",
+    "test:pedro": "cypress run --spec \"cypress/e2e/3-pedro-queiroga/pedro_queiroga_cdi.cy.js\""
+  },
+  "devDependencies": {
+    "cypress": "^15.14.0"
+  }
+}
