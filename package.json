@@ -8,11 +8,19 @@
     "cy:open": "cypress open",
     "cy:run": "cypress run",
     "test": "cypress run",
-    "test:gabriel": "cypress run --spec \"cypress/e2e/1-gabriel-chaves/gabriel_chaves_ipca.cy.js\"",
-    "test:marcelo": "cypress run --spec \"cypress/e2e/2-marcelo-nobrega/marcelo_nobrega_poupanca.cy.js\"",
-    "test:pedro": "cypress run --spec \"cypress/e2e/3-pedro-queiroga/pedro_queiroga_cdi.cy.js\""
+    "test:gabriel": "cypress run --spec \"cypress/e2e/1-gabriel-chaves/gabriel_chaves_ipca.feature\"",
+    "test:marcelo": "cypress run --spec \"cypress/e2e/2-marcelo-nobrega/marcelo_nobrega_poupanca.feature\"",
+    "test:pedro": "cypress run --spec \"cypress/e2e/3-pedro-queiroga/pedro_queiroga_cdi.feature\""
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": [
+      "cypress/support/step_definitions/**/*.js"
+    ]
   },
   "devDependencies": {
-    "cypress": "^15.14.0"
+    "@badeball/cypress-cucumber-preprocessor": "^24.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.8",
+    "cypress": "^15.14.0",
+    "esbuild": "^0.28.0"
   }
 }
