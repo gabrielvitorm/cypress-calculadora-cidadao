@@ -1,0 +1,12 @@
+{
+  "valido": {
+    "dataInicial": "01/01/2020",
+    "dataFinal": "01/01/2021",
+    "valor": "3500,75",
+    "percentual": "1,00"
+  },
+  "valoresEspeciais": [
+    { "valor": "@@@",  "percentual": "1,00" },
+    { "valor": "####", "percentual": "0,90" }
+  ]
+}

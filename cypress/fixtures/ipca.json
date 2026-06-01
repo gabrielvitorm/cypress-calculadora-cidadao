@@ -1,0 +1,16 @@
+{
+  "valido": {
+    "dataInicial": "01/2020",
+    "dataFinal": "01/2021",
+    "valor": "1000,00"
+  },
+  "dataInvertida": {
+    "dataInicial": "12/2021",
+    "dataFinal": "01/2021",
+    "valor": "1000,00"
+  },
+  "datasInvalidas": [
+    { "dataInicial": "13/2024", "dataFinal": "01/2025" },
+    { "dataInicial": "00/2024", "dataFinal": "01/2025" }
+  ]
+}
