@@ -22,10 +22,9 @@ class CalculadoraPage {
 
   validarFalhaSemResultado() {
     cy.get('body').invoke('text').then((txt) => {
-      const norm = txt.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
+      const norm = txt.toLowerCase().normalize('NFD').replace(/[\u0300-\u036F]/g, '')
       const temErro = norm.includes('erro') || norm.includes('inval') || norm.includes('obrigat')
       if (temErro) {
-        expect(temErro).to.equal(true)
         return
       }
       cy.contains(/Valor corrigido/i).should('not.exist')

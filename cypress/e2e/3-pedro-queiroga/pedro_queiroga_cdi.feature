@@ -35,5 +35,5 @@ Funcionalidade: Correção monetária pelo CDI - Pedro Queiroga
     Então devo ver o resultado da correção
     Exemplos:
       | valor | percentual |
-      | @@@   | 1,00       |
       | ####  | 0,90       |
+      | ###   | 1,00       |
