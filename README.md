@@ -2,6 +2,12 @@
 
 Suíte de testes E2E para a [Calculadora do Cidadão](https://www3.bcb.gov.br/CALCIDADAO/publico/corrigirPorIndice.do?method=corrigirPorIndice) do Banco Central do Brasil, desenvolvida com Cypress e Gherkin (BDD).
 
+## Vídeo demonstrativo
+ 
+[![Assistir no YouTube](https://img.shields.io/badge/YouTube-Assistir%20demonstra%C3%A7%C3%A3o-red?style=for-the-badge&logo=youtube)](https://youtu.be/clnmGoEYLbc)
+ 
+> Apresentação completa da suíte de testes: visão geral da aplicação, contextos, cenários, arquivos `.feature`, `Steps.js` e execução ao vivo.
+
 ## Como executar
 
 ```bash
